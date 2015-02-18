@@ -1,0 +1,49 @@
+?
+?2
+?lift
+?4
+?nextprime
+nextprime(2^1000)
+nextprime(2^500+random(2^500))
+?while
+?write
+?read*
+d=nextprime(2^500+random(2^500))
+e=nextprime(2^550+random(2^500))
+write(public_key, e"\n"d)
+?
+75\10
+?readvec
+readvec(public_key)
+v=readvec(public_key)
+v[1]
+v[2]
+0))
+read(skrypt_01.gp)
+?read
+read(D:\Programy\Pari\Pari-2-7-2\skrypt_01.gp)
+?asci
+strhr(102)
+Strhr(102)
+Strchr(102)
+?chrstr
+vecsmall("ala ma kota")
+Vecsmall("ala ma kota")
+read(D:/Programy/Pari/Pari-2-7-2/skrypt_01.gp)
+read(D://Programy/Pari/Pari-2-7-2/skrypt_01.gp)
+read "skrypt_01.gp"
+read"skrypt_01"
+read 'skrypt_01.gp'
+read("skrypt_01.gp")
+Vecsmall("ala ma kota")
+Strhr(102)
+Strchr(102)
+e=nextprime(2^550+random(2^500))
+Vecsmall("ala ma kota")
+read("skrypt_01.gp")
+read("skrypt_02.gp")
+
+%1 = 3455*34553
+%1 = Mod(34534,34345)
+a = Mod(134534,345134)
+read("RSA.gp")
