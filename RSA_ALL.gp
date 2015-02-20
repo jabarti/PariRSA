@@ -28,8 +28,8 @@ v3=readvec("RSA_03_Message.txt");
 lengV3 = length(v3);
 
 
-if(lengV1 == 0, if(check, write(RSA_01_public_key, e"\n"n)), print("ZŁO!!!"));	
-if(lengV2 == 0, if(check, write(RSA_02_private_key, d"\n"n)), print("ZŁO!!!"));
+if(lengV1 == 0, if(check, write(RSA_01_public_key, e"\n"n)), print("ZLO!!!"));	
+if(lengV2 == 0, if(check, write(RSA_02_private_key, d"\n"n)), print("ZLO!!!"));
 
 /* ZABEZPIECZENIE PRZED TWORZENIEM NOWYCH KLUCZY W TLE (wykorzystywanych do E(x) i D(x))*/
 /* SPRAWDZAMY CZY PLIKI SĄ PUSTE!!! */
@@ -148,6 +148,8 @@ write("RSA_07_messageUncrypted.txt", "\"",messageUncrypted,"\"");
 /* Powinno być odkomentowane w wersji docelowej skryptu to co chcemy żeby sie wyświetlało jako wynik*/
 \\system("start RSA_05_Secret_Message.txt");
 \\system("start RSA_07_messageUncrypted.txt");
+\\system("start RSA_01_public_key");
+\\system("start RSA_02_private_key");				\\ raczej nie powinno być odkomentowane!, niech dostęp będzie trudny!
 
 /* Powinno być odkomentowane w wersji docelowej skryptu*/
 \\quit();

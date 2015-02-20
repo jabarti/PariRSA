@@ -1,3 +1,5 @@
+/* RSA_Decode.gp */
+
 /* SPRAWDZAMY CZY PLIKI SĄ PUSTE!!! */
 v1=readvec(RSA_01_public_key);
 lengV1 = length(v1);

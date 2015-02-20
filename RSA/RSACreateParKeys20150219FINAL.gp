@@ -1,3 +1,4 @@
+/* RSACreateParKeys.gp */
 /* Tworzy niezbędne pliki, po pierwszym wykonaniu do zakomentowania!!!!!*/
 /*
 system("C:\xampp\htdocs\Pari-2-7-2 > RSA_01_public_key");
@@ -23,12 +24,13 @@ lengV1 = length(v1);
 v2 = readvec(RSA_02_private_key);
 lengV2 = length(v2);
 
-if(lengV1 == 0, if(check, write(RSA_01_public_key, e"\n"n)), print("ZŁO!!!"));	
-if(lengV2 == 0, if(check, write(RSA_02_private_key, d"\n"n)), print("ZŁO!!!"));
+if(lengV1 == 0, if(check, write(RSA_01_public_key, e"\n"n)), print("ZLO!!!"));	
+if(lengV2 == 0, if(check, write(RSA_02_private_key, d"\n"n)), print("ZLO!!!"));
 
 
 /* Powinno być odkomentowane w wersji docelowej skryptu to co chcemy żeby sie wyświetlało jako wynik*/
-\\system("start RSA_05_Secret_Message.txt");
+system("start RSA_01_public_key");
+\\system("start RSA_02_private_key");				\\ raczej nie powinno być odkomentowane!, niech dostęp będzie trudny!
 
 
 /* Powinno być odkomentowane w wersji docelowej skryptu*/
